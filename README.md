@@ -1,3 +1,9 @@
+  <br />
+<p align="center">
+  <a href="(https://github.com/IFitri/CustomerSearch)">
+    <img src="RDJ yoga.webp" width="240" height="240">
+  </a>
+
 # The main source code for the File is in below:
   [CustomerSearch_215220](https://github.com/IFitri/CustomerSearch/blob/main/CustomerSearch_215220.cpp)
 
