@@ -113,8 +113,10 @@ int main() {
     do {
         cout << "\n\n=== MENU OPTIONS ===\n";
 //        cout << "G - Generate 1000 random customers\n";
-        cout << "R - Display customer data\n";
-        cout << "F - Find customer (coming soon)\n";
+        cout << "L - Display customer data\n";
+        cout << "B - Find customer (BST)\n";
+        cout << "R - Find customer (RBT)\n";
+        cout << "D - Time Taken for both search";
         cout << "E - Exit program\n";
         cout << "Enter your choice: ";
         cin >> choice;
@@ -129,14 +131,19 @@ int main() {
                 break;
 */
 
-            case 'R':
+            case 'L':
                 loadFromFile();
                 sort(customer, customer + custCount, compareByName);
                 printList();
                 break;
-            case 'F':
-                cout << "Find feature coming soon.\n";
+            case 'B':
+                cout << "Find feature (BST) coming soon.\n";
                 break;
+            case 'R':
+                cout << "Find feature (RBT) coming soon.\n";
+                break;
+            case 'D':
+            	cout <<"Time taken for BST is"<< <<"T\nTime taken for BST is"<< <<"The difference of time taken between BST and RBT is ";
             case 'E':
                 cout << "Exiting program. Goodbye!\n";
                 break;
@@ -147,4 +154,3 @@ int main() {
 
     return 0;
 }
-
